@@ -34,7 +34,7 @@ spec:
             - name: DBHOST
               value: amfs.mysql.database.azure.com
             - name: DBUSERNAME
-              value: cubastionadmin
+              value: cubastionadmin@amfs
             - name: DBPASSWORD
               value: Cubastion#123!
             - name: DBDIALECT
