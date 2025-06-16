@@ -51,4 +51,4 @@ spec:
             - name: NODE_ENV
               value: production
             - name: WHITELIST_URLS
-              value: "*"
+              value: "http://http://108.142.233.84"
