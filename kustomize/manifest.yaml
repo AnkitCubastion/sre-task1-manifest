@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: node-app-service
 spec:
+  type: LoadBalancer
   selector:
     app: node-app
   ports:
@@ -34,9 +35,9 @@ spec:
             - name: DBHOST
               value: amfs.mysql.database.azure.com
             - name: DBUSERNAME
-              value: cubastionadmin@amfs
+              value: ankit090701
             - name: DBPASSWORD
-              value: Cubastion#123!
+              value: Drowssap@3302
             - name: DBDIALECT
               value: mysql
             - name: DBNAME
